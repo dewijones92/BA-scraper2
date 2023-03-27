@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "target": "ES2019",
+    "module": "commonjs",
+    "lib": ["ES2019", "dom"],
+    "skipLibCheck": true,
+    "declaration": true,
+    "removeComments": true,
+    "downlevelIteration": true,
+    "allowJs": true,
+    "outDir": "./lib",
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": false,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
