@@ -1,7 +1,5 @@
-import { request } from 'http';
-import { chromium, firefox } from 'playwright-core';
+import { firefox } from 'playwright-core';
 import { createCursor } from './cursor';
-import { Vector } from './math';
 import { delay } from './utils';
 
 (async () => {
